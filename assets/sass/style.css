@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#product--main {
+  width: 100%;
+}
+#product--main .container {
+  width: 100%;
+  padding: 20px 200px;
+}
+#product--main .container .product_head {
+  text-align: center;
+  margin-top: 40px;
+}
+#product--main .container .product_head p {
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+#product--main .container .product_head h3 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+#product--main .container .product_head span {
+  opacity: 1;
+}
+#product--main .container .box {
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  margin-right: 20px;
+}
+#product--main .container .box .box-card .card--img {
+  margin: 5px;
+}
+#product--main .container .box .box-card .card--img img {
+  width: 290px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+#product--main .container .box .box-card .card--text {
+  padding: 10px 77px;
+}
+#product--main .container .box .box-card .card--text h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#product--main .container .box .box-card .card--text p {
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+#product--main .container .box .box-card .card--text .color-radius {
+  margin-top: 5px;
+  display: flex;
+  margin-left: 5px;
+  gap: 2px;
+}
+#product--main .container .box .box-card .card--text .color-radius .blue {
+  width: 15px;
+  height: 15px;
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 50%;
+}
+#product--main .container .box .box-card .card--text .color-radius .green {
+  width: 15px;
+  height: 15px;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 50%;
+}
+#product--main .container .box .box-card .card--text .color-radius .orange {
+  width: 15px;
+  height: 15px;
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 50%;
+}
+#product--main .container .box .box-card .card--text .color-radius .black {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
