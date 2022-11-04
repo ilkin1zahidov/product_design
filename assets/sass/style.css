@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 #product--main .container {
   width: 100%;
-  padding: 20px 200px;
+  padding: 50px;
 }
 #product--main .container .product_head {
   text-align: center;
@@ -33,9 +33,10 @@ body {
 }
 #product--main .container .box {
   width: 100%;
-  padding: 30px 100px;
+  padding: 30px 259px;
   display: flex;
   margin-right: 20px;
+  flex-wrap: wrap;
 }
 #product--main .container .box .box-card .card--img {
   margin: 5px;
